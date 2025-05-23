@@ -1,6 +1,6 @@
 sudo pacman -S zsh 
 chsh -s /bin/zsh
-reboot
+log-out/log-in
 
 sudo pacman -S zsh-syntax-highlighting
 sudo pacman -S zsh-autosuggestions

@@ -1,0 +1,11 @@
+sudo pacman -S zsh 
+chsh -s /bin/zsh
+reboot
+
+sudo pacman -S zsh-syntax-highlighting
+sudo pacman -S zsh-autosuggestions
+sudo pacman -S fzf
+yay -S zsh-theme-powerlevel10k
+git clone https://github.com/Aloxaf/fzf-tab ~/.zsh/fzf-tab
+
+Voir le fichier .zshrc
